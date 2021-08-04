@@ -1,0 +1,169 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    text-shadow: 1px 2px 3px yellow;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+nav{
+display:flex;
+flex-wrap: wrap;
+width:100vw;
+background-color: midnightblue;
+color:white;
+font-size: 20px;
+justify-content: space-around;
+align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     width:700px;
+    margin-top: 15px;
+    font-weight:700;
+
+}
+nav ul li{
+    margin-left:10px;
+    background-color: white;
+    border: 1px solid white;
+    color:midnightblue;
+    margin-bottom: 10px;;
+    border-radius: 4px;
+}
+nav ul li:hover{
+    color:white;
+    background-color: midnightblue;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.slider {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 5px;
+    width: 700px;
+    height:60vh;
+    border-radius: 10px;
+    animation-name: sliderAnim;
+    animation-duration: 20s;
+    animation-iteration-count: 20;
+    cursor: pointer;
+     margin:10px auto;
+    transition: all 2 ease;
+}
+
+
+@keyframes sliderAnim {
+    0% {
+        background-image: url('https://images.unsplash.com/photo-1611293388250-580b08c4a145?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFzdGVyaWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');
+        background-repeat:no-repeat;
+      
+        background-size: cover;
+    }
+    20% {
+        background-image: url('https://images.unsplash.com/photo-1578125689787-50a5c9fc6b2f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdGVyaWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    40% {
+        background-image: url('https://images.unsplash.com/photo-1611293388250-580b08c4a145?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFzdGVyaWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    60% {
+        background-image: url('https://images.unsplash.com/photo-1605807646837-485a3bc9bf1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FrZXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    80% {
+        background-image: url('https://images.unsplash.com/photo-1578125689787-50a5c9fc6b2f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGFzdGVyaWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+    100% {
+        background-image: url('https://images.unsplash.com/photo-1533137138-ba67dc90d752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=300&q=60');
+        background-repeat:no-repeat;
+        background-size: cover;
+    }
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+
+}
+.cards {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    height:50vh ;
+    width:28vw;
+    margin: 2%;
+}
+
+.card-img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.liked{
+    text-align: cneter;
+    margin:10px auto;
+    color:midnightblue;
+    text-shadow: 1px 2px 3px yellow;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 1% 1.5%;
+}
+
+footer ul li {
+    margin: 0px 4px;
+    color:white;
+}
+footer a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+}
+
+.head2{
+    
+        margin: 2%;
+        font-size: 1.4rem;
+        font-weight: 600;
+    
+    
+}
