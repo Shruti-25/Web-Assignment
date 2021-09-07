@@ -1,0 +1,74 @@
+body{
+    height:100vh;
+    background-image: url("https://images.unsplash.com/photo-1505860125062-3ce932953cf5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNsb3Vkc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content: space space-evenly;
+    align-items: center;
+}
+p{
+    margin: 7px;
+    color:crimson;
+}
+#back{
+    background-color:lightblue;
+ 
+    width:500px;
+    text-align:center;
+    border-radius:25px;
+}
+#in{
+    width:300px;
+    text-align:center;
+    background:rgba(256,256,256,.6);
+    border-radius:30px;
+}
+div{
+    margin:10px auto;
+}
+input{
+    border:none;
+    margin:10px auto;
+    width:200px;
+    height:30px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    background-color:white;
+    border-radius:10px;
+}
+button{
+    color:black;
+    border:none;
+    margin:auto;
+    width:215px;
+    height:40px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    border-radius:10px;
+}
+button:hover{
+   background-color: black;
+   color:white;
+   cursor: pointer;
+}
+#location{
+    font-size:20px;
+}
+#time{
+    font-size:20px;
+}
+#temp{
+    font-size:30px;
+}
+#minmax{
+    font-size:15px;
+}
+#weather{
+    font-size:20px;
+}
+#speed{
+    font-size:20px;
+}
